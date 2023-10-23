@@ -1,0 +1,7 @@
+class RFID
+{
+    //PROP/CLASS/MODEL/SIGNAL/SLOT/ENUM declarations to define your API
+    PROP(QStringList msg);
+    PROP(bool pressViaje=false);
+    PROP(QString path);
+};
